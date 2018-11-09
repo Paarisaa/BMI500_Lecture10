@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Nov  8 15:57:57 2018
+This python code calculates the number of 1-1, 1-many mappings and also the number of no-mapping terms both in ICD9 to 10 and ICD10 to 9.
+It needs the paths to '2018_I9gem.txt' and '2018_I10gem.txt' files as input and prints the number of mentioned mappings as the output.
 
 @author: Parisa Sarikhani
 """
@@ -10,7 +11,6 @@ import sys
 def  ICD_flags(path1,path2):
     #read ICD9-10 file:
     fo=open(path1 ,'r')
-   #fo=open('2018_I9gem.txt','r')
     ICD9=fo.readlines()
     Flags=[]
     for lines in ICD9:
@@ -40,7 +40,6 @@ def  ICD_flags(path1,path2):
         
     ####################################################################
     #read ICD10-9 file:
-   #fo=open('./2018_I10gem.txt','r')
     fo=open(path2,'r')
     ICD10=fo.readlines()
     Flags=[]
