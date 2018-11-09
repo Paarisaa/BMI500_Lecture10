@@ -1,0 +1,23 @@
+1- How many 1-1 mappings are there?
+
+Number of 1-1 mappings in 9->10 GEMs: 22100
+Number of 1-1 mappings in 10->9 GEMs: 71829
+
+2- How many 1-many mappings are there? In general, is the concept on the 1 side equivalent to the concepts on the many side? Explain.
+
+Number of 1-many mappings in 9->10 GEMs: 2338
+Number of 1-many mappings in 10->9 GEMs: 9033
+
+Yes, the general concept of 1 side is equivalent the concepts of many side, but the many side has more specificity and more information about the codes.
+
+
+3-How many terms have no mappings?
+
+Number of no mappings in 9->10 GEMs: 422
+Number of no mappings in 10->9 GEMs: 731
+
+4-Given the goal of resolving all 1:many mappings down to 1:1 mappings, which mapping direction (10->9 or 9->10) is more
+feasible? Explain your answer.
+
+I guess resolving the mappings from 9->10 direction is more feasible, because the there is more information on ICD10 codes and they are more specefic.
+Also, the number of ICD10 codes are much more than the ICD9 codes and we have to be able to map the codes from ICD9 to ICD10.
